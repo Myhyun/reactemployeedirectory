@@ -1,12 +1,9 @@
 import React from "react";
+import SearchResultContainer from "./components/SearchResultContainer";
 
 function App() {
     return (
-        <div>
-            <header>
-                <h1>Test</h1>
-            </header>
-        </div>
+        <SearchResultContainer />
     );
 }
 

@@ -9,8 +9,10 @@ function Results(props) {
                 {result.employee_name}
             </h1>
             <p>
-                {result.employee_salary}
-                {result.employee_age}
+                Salary: ${result.employee_salary}
+            </p>
+            <p>
+                Age: {result.employee_age}
             </p>
           </li>
         ))}
